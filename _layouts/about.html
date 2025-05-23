@@ -12,7 +12,10 @@ layout: default
           {% capture obfuscated_email %}
               {{ split_email[0] }}@<span style="display:none">{{ split_email[1] }}</span>{{ split_email[1] }}
           {% endcapture %}
-          <p class="desc">{{ page.subtitle }}<br>{{ page.living_area }}<br>{{ obfuscated_email }}</p>
+          <p class="desc">{{ page.subtitle }}<br>{{ page.living_area }}
+          {% if (page.show_email == blank) or (page.show_email == true) -%}
+            <br>{{ obfuscated_email }}</p>
+          {% endif %}
         </header>
 
         <article>
