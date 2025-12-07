@@ -1,4 +1,4 @@
-- title: General Information
+- title: General information
   type: map
   contents:
     - name: Full Name
@@ -62,7 +62,7 @@
         - Natural language processing (NLP)
         - Social media analysis
 
-- title: Academic Interests
+- title: Research interests
   type: nested_list
   contents:
     - title: Mathematics
