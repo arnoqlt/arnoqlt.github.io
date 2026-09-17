@@ -1,14 +1,38 @@
-github_users:
-  - torvalds
-  - alshedivat
-
 repo_description_lines_max: 2
 
-github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+my_github_repos:
+  - Aonnghus/VTplus-patches
+  - Aonnghus/ayudev
+
+other_github_repos:
+  - name: Machine learning / Deep learning
+    repos:
+      - aimhubio/aim
+      - fepegar/torchio
+      - IgorSusmelj/pytorch-styleguide
+      - ENSTA-U2IS-AI/awesome-uncertainty-deeplearning
+      - IntelLabs/bayesian-torch
+      - piEsposito/blitz-bayesian-deep-learning
+  - name: Python
+    repos:
+      - python-poetry/poetry
+      - khuyentran1401/Efficient_Python_tricks_and_tools_for_data_scientists
+      - docopt/docopt
+      - scientific-python/cookie
+      - mitmproxy/pdoc
+      - astral-sh/ruff
+  - name: LaTeX
+    repos:
+      - matze/mtheme 
+      - povanberg/flux-beamer
+      - anishathalye/gemini 
+  - name: Miscellaneous
+    repos:
+      - qwerty-fr/qwerty-fr
+      - excalidraw/excalidraw-vscode
+      - typst/typst
+      - pomdtr/sunbeam
+      - trimstray/the-book-of-secret-knowledge
+      - sindresorhus/awesome
+      - EbookFoundation/free-programming-books
+      - localsend/localsend
